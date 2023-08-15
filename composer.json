@@ -1,0 +1,17 @@
+{
+    "name": "mikhail-arkhipov/php-generator-id",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "MikhailArkhipov\\PhpGeneratorId\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mikhail Arkhipov"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    }
+}
