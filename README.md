@@ -17,10 +17,15 @@ $ composer require arhipovcode/php-generator-id
 ## Использование
 Чтобы использовать PHP Generator ID, просто создайте экземпляр класса и вызовите метод generate():
 ```php
-use MyUsername\Generator\Id;
+use MikhailArkhipov\PhpGeneratorId\GeneratorId;
 
-$idGenerator = new Id();
+$idGenerator = new generatorId();
+/**
+ * @param int $idLength 
+ * default = 8
+ * @return string
+ */
 $uniqueId = $idGenerator->generate();
 
-echo $uniqueId; // "5f9f3c7d-bd5c-4b94-9f01-3a3e7b6f4c2b"
+echo $uniqueId; // "5f9f-3c7d"
 ```
